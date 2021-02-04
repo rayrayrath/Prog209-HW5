@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MovieTestSheet</title>
+    </head>
+
+    <body>
+        <label for="movieTitle"> Movie Title: </label>
+        <input type="text" id="movieTitle" name="movieTitle">
+        <br><br>
+        <label for="movieRating"> Movie Rating: </label>
+        <input type="number" id="movieRating" name="movieRating">
+        <br><br>
+        <input type="submit" onclick="movieTestFunction()">
+        <br><br>
+
+        <div id="testArea"></div>
+        <br><br>
+        <p>Is title valid? </p>
+        <div id="isTitleValid"></div>
+        <br><br>
+        <p>is rating valid? </p>
+        <div id="isRatingValid"></div>
+
+        <script type="text/javascript" src="movie.js"></script>
+    </body>
+</html>
