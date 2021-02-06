@@ -1,0 +1,27 @@
+body{
+    border-style: solid;
+    border-width: 10px;
+    font-family: fantasy;
+    font-size: medium;
+    color: darkblue;
+    text-align: justify; 
+    padding-top: 10px;
+    padding: 20px;
+    
+
+  
+}
+ textarea{
+     font-size: larger;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: darkblue;
+     color: white;
+     text-align: justify;
+     border-style: ridge;
+     border-color: rgb(250, 248, 134);
+     border-width: 5px;
+     text-transform: capitalize;
+
+
+ }
+ 

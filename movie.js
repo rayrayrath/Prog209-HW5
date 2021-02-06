@@ -20,12 +20,13 @@ function Movie(title, rating) {
     };
 }
 
-function movieTestFunction () {
-    let title = document.getElementById("movieTitle").value;
-    let rating = document.getElementById("movieRating").value;
-    let myMovie = new Movie(title, rating);
+//function movieTestFunction () {
+    //let title = document.getElementById("movieTitle").value;
+    //let rating = document.getElementById("movieRating").value;
+    //let myMovie = new Movie(title, rating);
 
-    document.getElementById("testArea").innerHTML = myMovie.toString();
-    document.getElementById("isTitleValid").innerHTML = myMovie.isTitleValid();
-    document.getElementById("isRatingValid").innerHTML = myMovie.isRatingValid();
-}
+    //document.getElementById("testArea").innerHTML = myMovie.toString();
+    //document.getElementById("isTitleValid").innerHTML = myMovie.isTitleValid();
+    //document.getElementById("isRatingValid").innerHTML = myMovie.isRatingValid();
+
+//}
